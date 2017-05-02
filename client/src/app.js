@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import CountryContainer from './containers/CountryContainer.jsx';
+import Top20Container from './containers/Top20Container.jsx';
 
 window.onload = function () {
   ReactDOM.render(
-    <CountryContainer />,
+    <Top20Container />,
     document.getElementById('app')
   );
 };
